@@ -203,7 +203,7 @@ button:hover {
   display: grid;
   padding-top: 61px;
   block-size: 100%;
-  inline-size: 105%;
+  inline-size: 100%;
 }
 
 .title {
@@ -223,7 +223,8 @@ button:hover {
   position: relative;
   padding-top: 19px;
   overflow-y: scroll;
-  block-size: 313px;
+  block-size: 319px;
+  inline-size: 399px;
 }
 
 .content__list-item:not(:last-child) {
@@ -232,6 +233,7 @@ button:hover {
 
 .content__video-card {
   display: flex;
+  width: 394px;
 }
 
 .content__video-card-title {
@@ -298,5 +300,6 @@ button:hover {
 }
 
 .more-button {
-  padding: 5px 145px 5px 145px;
+  width: 399px;
+  height: 34px;
 }
